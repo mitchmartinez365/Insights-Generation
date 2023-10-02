@@ -8,23 +8,23 @@ Today, the data tables contain 10 minute time windows, the space_id, the maximum
 
 E.g.
 
-\\space_id | Space_name | Time-block | max_people | Total_time_occupied (mins)
-\\122 | Bread section | 09:00-09:10 | 4 | 5
-\\123 | Candy section | 09:10-09:20 | 3 | 2
+`space_id | Space_name | Time-block | max_people | Total_time_occupied (mins)`
+`122 | Bread section | 09:00-09:10 | 4 | 5`
+`123 | Candy section | 09:10-09:20 | 3 | 2`
 
 
 
 A order's dataset has now become available to enrich our understanding of shopper sales. It contains:
 
-\\Orders
-\\order_id | time | value
-\\3456. |. 09:23 |. $20.34
+`Orders`
+`order_id | time | value`
+`3456. |. 09:23 |. $20.34`
 
-\\Order_Items
-\\sale_id. | item_id | item_name | quantity | total_value
+`Order_Items`
+`sale_id. | item_id | item_name | quantity | total_value`
 
-\\Item_Location
-\\item_id | space_id
+`Item_Location`
+`item_id | space_id`
 
 
 # Additional Task
